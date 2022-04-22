@@ -10,4 +10,4 @@ publish-testnet:
 	@echo TODO
 
 precompile:
-	gnodev precompile .
+	go run github.com/gnolang/gno/cmd/gnodev precompile .
