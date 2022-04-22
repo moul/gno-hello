@@ -1,0 +1,2 @@
+precompile:
+	gnodev precompile .
