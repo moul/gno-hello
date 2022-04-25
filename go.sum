@@ -28,6 +28,8 @@ github.com/gdamore/tcell/v2 v2.1.0/go.mod h1:vSVL/GV5mCSlPC6thFP5kfOFdM9MGZcalip
 github.com/gnolang/cors v1.8.1/go.mod h1:g7HJhHH+N1r+oRrb7ckR2J6xp5es4EizpAP0JpfgVgU=
 github.com/gnolang/gno v0.0.0-20220422044600-affa8e29d227 h1:HnrZEan+MQndqZeRy0T+QaqeRf287+FAaefcTOd0X9U=
 github.com/gnolang/gno v0.0.0-20220422044600-affa8e29d227/go.mod h1:Fy6nsAQ6qEft7cOP5Zh9fYqT9IfVPiFQK6G/3kgH4zo=
+github.com/gnolang/gno v0.0.0-20220425034743-922e6e2596dd h1:RpuW7snAmDjuPtKGPoErafBsM7wJo12HLuNszAGUmc4=
+github.com/gnolang/gno v0.0.0-20220425034743-922e6e2596dd/go.mod h1:Fy6nsAQ6qEft7cOP5Zh9fYqT9IfVPiFQK6G/3kgH4zo=
 github.com/gnolang/overflow v0.0.0-20170615021017-4d914c927216 h1:GKvsK3oLWG9B1GL7WP/VqwM6C92j5tIvB844oggL9Lk=
 github.com/gnolang/overflow v0.0.0-20170615021017-4d914c927216/go.mod h1:xJhtEL7ahjM1WJipt89gel8tHzfIl/LyMY+lCYh38d8=
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
