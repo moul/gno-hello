@@ -34,7 +34,7 @@ jobs:
       - name: gnodev test
         run: go run github.com/gnolang/gno/cmd/gnodev test ${{matrix.realm}}
 
-  realm-tests:
+  realm-precompile-build:
     name: "Realm Precompile & Build"
     strategy:
       fail-fast: false
