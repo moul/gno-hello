@@ -1,13 +1,13 @@
 PUBLISHER_WALLET ?= moul
 PUBLISH_PATH ?= "gno.land/r/moul-hello"
-GNOKEY ?= gnokey
-GNODEV ?= gnodev
+GNOKEY ?= go run github.com/gnolang/gno/cmd/gnokey
+GNODEV ?= go run github.com/gnolang/gno/cmd/gnodev
 GNO_HOME ?= ~/.gno
 
 all: precompile
 
 test:
-	$(GNODEV) test ./hello
+	@echo TODO
 
 publish-local:
 	$(GNOKEY) maketx addpkg "$(PUBLISHER_WALLET)" \
@@ -20,6 +20,7 @@ publish-local:
 		--remote localhost:26657 \
 		--chainid testchain \
 		--home $(GNO_HOME)
+
 
 publish-testnet:
 	@echo TODO
