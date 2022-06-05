@@ -4,10 +4,16 @@ GNOKEY ?= go run github.com/gnolang/gno/cmd/gnokey
 GNODEV ?= go run github.com/gnolang/gno/cmd/gnodev
 GNO_HOME ?= ~/.gno
 
-all: precompile
+all: test
 
 test:
 	$(GNODEV) test "./hello"
+
+precompile:
+	$(GNODEV) precompile "./hello"
+
+build: precompile
+	$(GNODEV) build "./hello"
 
 publish-local:
 	$(GNOKEY) maketx addpkg "$(PUBLISHER_WALLET)" \
@@ -24,6 +30,3 @@ publish-local:
 
 publish-testnet:
 	@echo TODO
-
-precompile:
-	$(GNODEV) precompile "./hello"
