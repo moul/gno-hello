@@ -7,7 +7,7 @@ GNO_HOME ?= ~/.gno
 all: precompile
 
 test:
-	@echo TODO
+	$(GNODEV) test "./hello"
 
 publish-local:
 	$(GNOKEY) maketx addpkg "$(PUBLISHER_WALLET)" \
