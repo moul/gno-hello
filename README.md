@@ -1,2 +1,2 @@
-# gno-hello-contract
-Hello world Gno contract
+# gno-hello
+Hello World Gno Realm Example
