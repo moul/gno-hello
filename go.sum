@@ -57,6 +57,8 @@ github.com/gdamore/tcell/v2 v2.1.0/go.mod h1:vSVL/GV5mCSlPC6thFP5kfOFdM9MGZcalip
 github.com/gnolang/cors v1.8.1/go.mod h1:g7HJhHH+N1r+oRrb7ckR2J6xp5es4EizpAP0JpfgVgU=
 github.com/gnolang/gno v0.0.0-20220531192259-8dcd64983615 h1:g57Lki3dlx0GccfREPuFhM9ToXUED3iQiM19LRKd9E0=
 github.com/gnolang/gno v0.0.0-20220531192259-8dcd64983615/go.mod h1:h7J6PjwmwYJTOcs6KdxZx1kmETd5DvkcNR1+8wshVkI=
+github.com/gnolang/gno v0.0.0-20220623054313-57be0e4513a0 h1:o34sSS/uQncMopgbe4oPMjXob9at7/q6KVri9vRXNOI=
+github.com/gnolang/gno v0.0.0-20220623054313-57be0e4513a0/go.mod h1:QE2L+iLEpYIPKScg6UPanHZWbQQJ5bH7P2LyabVBO3g=
 github.com/gnolang/overflow v0.0.0-20170615021017-4d914c927216 h1:GKvsK3oLWG9B1GL7WP/VqwM6C92j5tIvB844oggL9Lk=
 github.com/gnolang/overflow v0.0.0-20170615021017-4d914c927216/go.mod h1:xJhtEL7ahjM1WJipt89gel8tHzfIl/LyMY+lCYh38d8=
 github.com/gogo/protobuf v1.3.2 h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=
@@ -308,6 +310,7 @@ gopkg.in/yaml.v2 v2.2.1/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 gopkg.in/yaml.v2 v2.2.4 h1:/eiJrUcujPVeJ3xlSWaiNi3uSVmDGBK1pDHUHAnao1I=
 gopkg.in/yaml.v2 v2.2.4/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
+gopkg.in/yaml.v2 v2.2.8/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 gopkg.in/yaml.v3 v3.0.0-20220512140231-539c8e751b99/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
